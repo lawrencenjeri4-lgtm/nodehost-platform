@@ -1,0 +1,21 @@
+{
+  "name": "bot-hosting-platform",
+  "version": "0.1.0",
+  "description": "MVP backend for a WhatsApp bot hosting platform: GitHub deploy, Docker orchestration, real-time logs, start/stop.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "dockerode": "^4.0.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nanoid": "^5.0.7",
+    "simple-git": "^3.25.0",
+    "tar-fs": "^3.0.6",
+    "ws": "^8.18.0"
+  }
+}
